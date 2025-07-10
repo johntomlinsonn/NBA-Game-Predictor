@@ -84,7 +84,7 @@ openpyxl>=3.0.0  # For Excel file support
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/nbaMachineLearningPredictor.git
-cd nbaMachineLearningPredictor
+cd NBA-Game-Predictor
 
 # Run automated setup script
 python setup.py
