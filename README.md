@@ -292,37 +292,18 @@ prediction = (prediction_prob[:, 1] >= threshold).astype(int)
 The training notebooks generate several key visualizations for model interpretation and performance analysis:
 
 #### 1. **Feature Importance Analysis**
-```python
-# Generated in nba_ml.ipynb
-plt.figure(figsize=(10, 6))
-sns.barplot(x='importance', y='feature', data=feature_importances.head(20))
-plt.title('Top 20 Feature Importances')
-```
+![Alt text](images/top-20-feature-importance-better-model.png)
+
 *This horizontal bar chart displays the relative importance of the top 20 features, helping identify which game statistics most influence win probability predictions.*
 
 #### 2. **Precision-Recall Curve**
-```python
-# Threshold optimization visualization
-plt.figure(figsize=(10, 6))
-plt.plot(recall, precision, marker='.')
-plt.xlabel('Recall')
-plt.ylabel('Precision')
-plt.title('Precision-Recall Curve')
-plt.grid(True)
-```
+![Alt text](images/precision-recall-curce-better-model.png)
+
 *The precision-recall curve illustrates the trade-off between precision and recall at various classification thresholds, enabling optimal threshold selection for maximizing prediction confidence.*
 
 #### 3. **Confusion Matrix Heatmap**
-```python
-# Model performance visualization
-plt.figure(figsize=(8, 6))
-sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", 
-            xticklabels=["Loss", "Win"], 
-            yticklabels=["Loss", "Win"])
-plt.xlabel('Predicted')
-plt.ylabel('Actual')
-plt.title('Confusion Matrix')
-```
+![Alt text](images/confusion-matrix-better-model.png)
+
 *The confusion matrix provides a comprehensive view of prediction accuracy, showing true positives, false positives, true negatives, and false negatives in an easily interpretable format.*
 
 #### 4. **Model Training Convergence**
