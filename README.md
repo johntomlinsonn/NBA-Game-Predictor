@@ -472,9 +472,8 @@ print(f"Golden State Warriors win probability: {warriors_vs_kings:.3f}")
 ## References
 
 1. Basketball Reference. (2024). *NBA Season Statistics*. Retrieved from https://www.basketball-reference.com/
-2. Chen, T., & Guestrin, C. (2016). *XGBoost: A Scalable Tree Boosting System*. Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining.
-3. Breiman, L. (2001). *Random Forests*. Machine Learning, 45(1), 5-32.
-4. Pedregosa, F., et al. (2011). *Scikit-learn: Machine Learning in Python*. Journal of Machine Learning Research, 12, 2825-2830.
+2. Dataquest. (2022, May 2). Web Scraping Football Matches From The EPL With Python [part 1 of 2] [Video]. YouTube. http://www.youtube.com/watch?v=Nt7WJa2iu0s
+3. Dataquest. (2022, May 9). Predict Football Match Winners With Machine Learning And Python [Video]. YouTube. http://www.youtube.com/watch?v=0irmDBWLrco
 
 ---
 
@@ -482,10 +481,10 @@ print(f"Golden State Warriors win probability: {warriors_vs_kings:.3f}")
 ```bibtex
 @misc{nba_predictor_2024,
   title={NBA Game Outcome Prediction System},
-  author={[Your Name]},
+  author={[John Tomlinson]},
   year={2024},
   publisher={GitHub},
-  url={https://github.com/yourusername/nbaMachineLearningPredictor}
+  url={https://github.com/johntomlinsonn/nbaMachineLearningPredictor}
 }
 ```
 
